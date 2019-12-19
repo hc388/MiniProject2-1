@@ -134,7 +134,7 @@ textarea {
 #masthead {
   height: 74px;
   background-size: cover;
-  background-image: url("user-images.githubusercontent.com/55418010/69907691-35205900-13a7-11ea-83f5-dfcd4bf87b77.png");
+  background-image: url("https://user-images.githubusercontent.com/48003309/70292073-06412300-17ab-11ea-8f1d-da365b7a511e.png"); !important;
   background-position: center;
   margin-bottom: 45px;
   margin-top: 45px;
@@ -145,7 +145,7 @@ h1 a:link {
   color: black;
 }
 #hero_div {
-  background: rgba(0,0,0,.6);
+<!--background: rgba(0,0,0,.6); -->
   color: #fff;
   height: 100%;
   width: 100%;
@@ -165,13 +165,22 @@ hr {
 #masthead_landing {
   height: 367px;
   background-size: cover;
-  background-image: url("user-images.githubusercontent.com/55418010/69907691-35205900-13a7-11ea-83f5-dfcd4bf87b77.png");
+  background-image: url("https://user-images.githubusercontent.com/48003309/70292073-06412300-17ab-11ea-8f1d-da365b7a511e.png");
   background-position: center;
   margin-bottom: 45px;
   margin-top: 45px;
 }
 
+.padtop{
+  padding-left: 20px;
+}
+#links span {
+  padding: 70px;
+}
 
+#links a{
+  padding-left: 20px;
+}
 
 #menu li {
   display: inline;
@@ -181,8 +190,16 @@ hr {
   width: 200px;
 }
 
-#side_photo {
+#sidebar img{
+  padding: 10px;
+  width: 310px;
+
+}
+#sidebar_photo {
+  margin-right: auto;
+  margin-left: auto;
   width: 320px;
+  float: right;
 }
 
 .text_center {
@@ -296,9 +313,9 @@ hr {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
